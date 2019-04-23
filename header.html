@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="关键词">
+    <meta name="description" content="网站描述">
+    <title>小鸟掌游</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <script>
+        $(function(){
+            $('.first-list>li').hover(function(){
+                $(this).find('ol').stop().slideDown(600,'elasticOut')
+            },function(){
+                $(this).find('ol').stop().slideUp(600,'elasticIn')
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <!-- 头部页面部分 -->
+    <section class="header">
+        <a href="#" class="logo fl">世界旅游</a>
+            <div class="container">
+            <div class="nav fr">
+                <ul class="first-list">
+                    <li><a href="./index.html">首页</a></li>
+                    <li>
+                        <a href="#">旅游知识</a><span></span>
+                        <ol class="second-list">
+                            <li><a href="./second.html">旅游主页</a><span></span></li>
+                            <li><a href="./second.html#1">旅游概述</a><span></span></li>
+                            <li><a href="./second.html#2">旅游名地</a><span></span></li>
+                            <li><a href="./second.html#3">旅行与生活</a><span></span></li>
+                            <li><a href="./second.html#4">旅游达人</a><span></span></li>
+                            <li><a href="./second.html#4">联系客服</a><span></span></li>
+                        </ol>
+                    </li>
+                    <li><a href="./third-list.html">旅游共享</a></li>
+                    <li>
+                        <a href="#">旅游文化</a><span></span>
+                        <ol class="second-list">
+                            <li><a href="./fourth-title.html?type=companyIdea">驴友狂欢</a><span></span></li>
+                            <li><a href="./fourth-title.html?type=companyCulture">旅游心得</a><span></span></li>
+                            <li><a href="./fourth-title.html?type=companyEnvironment">旅游氛围</a><span></span></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="#">驴友联盟</a><span></span>
+                        <ol class="second-list">
+                            <li><a href="./fourth-title.html?type=talents">联盟理念</a><span></span></li>
+                            <li><a href="./fourth-title.html?type=team">联盟介绍</a><span></span></li>
+                            <li><a href="./fourth-title.html?type=joinUs">驴友集合</a><span></span></li>
+                        </ol>
+                    </li>
+                    <li><a href="./fourth-title.html?type=telUs">联系我们</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
